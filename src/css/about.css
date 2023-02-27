@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile{
+    width: 350px;
+}
+
+.synopsis{
+    max-width: 600px;
+}

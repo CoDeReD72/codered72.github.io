@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
 }
 
 header{
@@ -23,7 +24,6 @@ header{
 .navbar{
     float: right;
     justify-content: space-between, center;
-    color: white;
     background-color: #5ececc;
     width: 90%;
     padding: 5px;

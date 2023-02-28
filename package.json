@@ -1,0 +1,24 @@
+{
+  "name": "personalblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoDeReD72/personalBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoDeReD72/personalBlog/issues"
+  },
+  "homepage": "https://github.com/CoDeReD72/personalBlog#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-fetch": "^3.0.0"
+  }
+}

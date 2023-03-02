@@ -2,10 +2,11 @@
 layout: layouts/base.html
 title: "DG | Blog"
 ---
+
 <!-- List of Blog Posts Here?-->
 
-<ul class='post_list'>
-    {% for post in collections.posts %}
-        <li><a href={{post.url}}> {{ post.data.title }}</a></li>
-    {% endfor %}
+<ul class="post_list">
+  {% for post in collections.recentPosts %}
+  <li><a href="{{post.url}}"> {{ post.data.title }}</a></li>
+  {% endfor %}
 </ul>

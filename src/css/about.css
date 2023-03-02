@@ -1,18 +1,17 @@
 * {
-    justify-content: center;
-    text-align: center;
+  justify-content: center;
+  text-align: center;
 }
 
-
-.container{
-    display: flex;
-    justify-content: space-evenly;
+.container {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.profile{
-    width: 350px;
+.profile {
+  width: 350px;
 }
 
-.synopsis{
-    max-width: 600px;
+.synopsis {
+  max-width: 600px;
 }

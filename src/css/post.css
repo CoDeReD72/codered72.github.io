@@ -1,24 +1,22 @@
 /* Only used to set a max width*/
-h1{
-    color: #5ececc;
-    font-weight: bold;
-    text-decoration: underline;
+h1 {
+  color: #5ececc;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-time{
-    font-style: italic;
+time {
+  font-style: italic;
 }
 
-.post__content{
-    color: white;
-    max-width: 960px;
-    margin: 0 auto; 
+.post__content {
+  color: white;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-.categories{
-    color: #5ececc;
-    font-style: italic;
-    text-decoration: none;
+.categories {
+  color: #5ececc;
+  font-style: italic;
+  text-decoration: none;
 }
-
-

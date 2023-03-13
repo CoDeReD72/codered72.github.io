@@ -56,6 +56,17 @@ header {
 
 .post_list {
   text-align: center;
+  
+}
+
+.post_entry{
+  padding-top: 1cm;
+  font-size: x-large;
+}
+
+.post_desc{
+  font-size: small;
+  font-style: italic;
 }
 
 a {

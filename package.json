@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/CoDeReD72/personalBlog/issues"
   },
-  "homepage": "https://github.com/CoDeReD72/personalBlog#readme",
+  "homepage": "https://github.com/CoDeReD72/personalBlog#about.html",
   "dependencies": {
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-fetch": "^3.0.0"

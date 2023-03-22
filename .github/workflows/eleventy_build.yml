@@ -1,0 +1,17 @@
+name: Eleventy Build
+
+
+on:
+  push:
+    branches:
+      - master
+      
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v2
+
+
+        - name: Setup Node
+          uses: acti

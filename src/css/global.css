@@ -21,14 +21,16 @@ header {
   width: 10%;
 }
 
+
 .navbar {
   float: right;
-  justify-content: space-between, center;
+  justify-content: space-evenly;
   background-color: #5ececc;
   width: 90%;
   padding: 5px;
   justify-content: center;
 }
+
 
 .nav_link {
   list-style: none;
@@ -39,7 +41,8 @@ header {
 .nav_link li {
   display: inline-block;
   background-color: #5ececc;
-  margin-inline-start: 10%;
+  margin-inline-start: 5%;
+  margin-inline-end: 5%;
 }
 
 .nav_link li a {
@@ -54,17 +57,21 @@ header {
   color: white;
 }
 
-.post_list {
-  text-align: center;
-  
+.nav_footer{
+  justify-content: center;
+  background-color: #5ececc;
 }
 
-.post_entry{
+.post_list {
+  text-align: center;
+}
+
+.post_entry {
   padding-top: 1cm;
   font-size: x-large;
 }
 
-.post_desc{
+.post_desc {
   font-size: small;
   font-style: italic;
 }
@@ -79,20 +86,11 @@ a:hover {
   transition: all 0.3s ease 0s;
 }
 
-/*
- .card__container{
-    background-color: #5ececc;
-    margin: 1rem auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 800px;
-    height: 200px;
-    padding: 0;
-    border-radius: 0.5rem;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+footer {
+  background-color: #5ececc;
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
-
-TO BE USED TO CREATE CONTENT CARDS IN THE FUTURE
-*/

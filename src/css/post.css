@@ -11,12 +11,19 @@ time {
 
 .post__content {
   color: white;
-  max-width: 960px;
+  max-width: 50%;
   margin: 0 auto;
+  line-height: 1.5;
 }
 
-.categories {
-  color: #5ececc;
-  font-style: italic;
-  text-decoration: none;
+.post__content p {
+  margin-bottom: 1em;
+}
+
+.post__content h1 {
+  margin-bottom: 1em;
+}
+
+.post__content h2 {
+  margin-bottom: 1em;
 }

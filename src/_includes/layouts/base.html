@@ -7,4 +7,9 @@
   <body>
     {% block content %} {{ content | safe }} {% endblock %}
   </body>
+
+  <footer>
+    {% include "basefooter.html" %} {% block footer %} {% endblock %}
+  </footer>
+  
 </html>

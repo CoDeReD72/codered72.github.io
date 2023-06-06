@@ -2,12 +2,22 @@
 
 * {
   box-sizing: border-box;
-  background-color: #444444;
   margin: 0;
   padding: 0;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background-color: #444444;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: white;
+  margin-bottom: 50px; /* Add margin for the bottom navbar */
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-bottom: 80px; /* Add padding to accommodate the footer */
 }
 
 header {
@@ -21,7 +31,6 @@ header {
   width: 10%;
 }
 
-
 .navbar {
   float: right;
   justify-content: space-evenly;
@@ -30,7 +39,6 @@ header {
   padding: 5px;
   justify-content: center;
 }
-
 
 .nav_link {
   list-style: none;
@@ -57,13 +65,18 @@ header {
   color: white;
 }
 
-.nav_footer{
-  justify-content: center;
+.nav_footer {
+  position: fixed; /* Change to position: fixed */
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background-color: #5ececc;
+  padding: 5px; /* Adjust padding as needed */
 }
 
 .post_list {
   text-align: center;
+  margin-bottom: 40px; /* Adjust margin to provide space above the footer */
 }
 
 .post_entry {
@@ -84,13 +97,4 @@ a {
 a:hover {
   color: #5ececc;
   transition: all 0.3s ease 0s;
-}
-
-footer {
-  background-color: #5ececc;
-  position: fixed;
-  z-index: 100;
-  bottom: 0;
-  left: 0;
-  width: 100%;
 }

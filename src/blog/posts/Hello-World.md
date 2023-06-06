@@ -8,8 +8,6 @@ tags:
 - Computing
 ---
 
-# Hello World
-
 It is tradition, I would even argue religious, for the first thing you do when an application, program or website works would be to use a 'Hello World' and for many is the summation of all there efforts to get to a place where their work (however big or small) has come to fruition.
 
 ## How did This Get Here?

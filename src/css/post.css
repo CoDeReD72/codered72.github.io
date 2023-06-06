@@ -2,11 +2,14 @@
 h1 {
   color: #5ececc;
   font-weight: bold;
-  text-decoration: underline;
 }
 
 time {
   font-style: italic;
+}
+
+ul {
+  margin-bottom: 1em;
 }
 
 .post__content {

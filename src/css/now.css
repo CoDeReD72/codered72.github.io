@@ -1,0 +1,56 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #444444;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-bottom: 50px; /* Add margin for the bottom navbar */
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #5ececc;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #5ececc;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    color: #5ececc;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  a {
+    color: #5ececc;
+    text-decoration: underline;
+
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  b{
+    color: #5ececc;
+  }

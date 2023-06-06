@@ -8,8 +8,6 @@ tags:
 - Computing
 ---
 
-## Conway's Game of Life
-
 The Game of Life is probably the most well-known model of cellular automation in existence. My first experience of the Game of Life was during a final year module of university covering theoretical computational models and their implementation. However, cellular automation was never covered in any depth, the visual element of the Game of Life was fascinating to me, and I decided to research further.
 
 After looking into cellular automaton and a range of things including an insightful interview with John Conway about creating the game, I decided to give it a shot myself.

@@ -1,13 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  {% include "../basehead.html" %} {% block head %} {% endblock %}
+  {% include "../basehead.html" %}
+  {% block head %}{% endblock %}
   <link rel="stylesheet" href="/css/post.css" />
 </head>
 
-{% block content %}
-<article class="post__content">
-  <h1>{{ title }}</h1>
+<body>
+  {% block content %}
+    <!-- Post Content -->
+    <article class="post__content">
+      <h1>{{ title }}</h1>
 
-  {{ content | safe }}
-  <!-- Safe must be used to stop md rendering as html tags-->
-</article>
-{% endblock %}
+      {{ content | safe }}
+      <!-- Safe must be used to stop md rendering as html tags-->
+    </article>
+    <!-- End Post Content -->
+  {% endblock content %}
+</body>
+
+<footer>
+  {% include "basefooter.html" %} {% block footer %} {% endblock %}
+</footer>
+
+</html>

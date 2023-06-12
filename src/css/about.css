@@ -1,0 +1,18 @@
+* {
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile {
+  width: 350px;
+  margin-right: 5%;
+}
+
+.synopsis {
+  max-width: 600px;
+}

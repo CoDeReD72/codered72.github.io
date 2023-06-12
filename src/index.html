@@ -1,0 +1,14 @@
+---
+layout: layouts/base.html
+title: "DG | Blog"
+---
+
+<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/global.css" />
+
+<!-- List of Blog Posts Here?-->
+
+<ul class="post_list">
+  {% for post in collections.recentPosts %}
+  <li class="post_entry"><a href="{{site.url}}{{site.baseurl}}/{{post.url}}"> {{ post.data.title }}</a><p class="post_desc">{{post.data.description}}</p></li>
+  {% endfor %}
+</ul>

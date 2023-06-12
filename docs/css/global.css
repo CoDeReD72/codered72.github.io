@@ -1,0 +1,100 @@
+@import url("./reset.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #444444;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: white;
+  margin-bottom: 50px; /* Add margin for the bottom navbar */
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-bottom: 80px; /* Add padding to accommodate the footer */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 0%;
+  width: 10%;
+}
+
+.navbar {
+  float: right;
+  justify-content: space-evenly;
+  background-color: #5ececc;
+  width: 90%;
+  padding: 5px;
+  justify-content: center;
+}
+
+.nav_link {
+  list-style: none;
+  background-color: #5ececc;
+  text-align: center;
+}
+
+.nav_link li {
+  display: inline-block;
+  background-color: #5ececc;
+  margin-inline-start: 5%;
+  margin-inline-end: 5%;
+}
+
+.nav_link li a {
+  background-color: #5ececc;
+  color: #444444;
+  font-size: larger;
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+}
+
+.nav_link li a:hover {
+  color: white;
+}
+
+.nav_footer {
+  position: fixed; /* Change to position: fixed */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #5ececc;
+  padding: 5px; /* Adjust padding as needed */
+}
+
+.post_list {
+  text-align: center;
+  margin-bottom: 40px; /* Adjust margin to provide space above the footer */
+}
+
+.post_entry {
+  padding-top: 1cm;
+  font-size: x-large;
+}
+
+.post_desc {
+  font-size: small;
+  font-style: italic;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5ececc;
+  transition: all 0.3s ease 0s;
+}

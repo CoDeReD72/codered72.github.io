@@ -1,0 +1,32 @@
+/* Only used to set a max width*/
+h1 {
+  color: #5ececc;
+  font-weight: bold;
+}
+
+time {
+  font-style: italic;
+}
+
+ul {
+  margin-bottom: 1em;
+}
+
+.post__content {
+  color: white;
+  max-width: 50%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.post__content p {
+  margin-bottom: 1em;
+}
+
+.post__content h1 {
+  margin-bottom: 1em;
+}
+
+.post__content h2 {
+  margin-bottom: 1em;
+}

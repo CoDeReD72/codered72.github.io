@@ -8,7 +8,7 @@ The aim of the blog is to highlight current events in my life whether it is tech
 
 Learning eleventy over the course of a weekend proven to be a challenge but a rewarding one. I have learnt a lot about the static site generator and how it can be used to create a blog site. It also cemented my ability to adapt to new technologies/frameworks and learn them quickly.
 
-Currently hosted @ [codered72.github.io](https://codered82.github.io)
+Currently hosted @ [codered72.github.io](https://codered72.github.io)
 
 
 ## Future Work

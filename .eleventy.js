@@ -18,7 +18,6 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addGlobalData("site", {
     url: "https://CoDeReD72.github.io",
-    baseurl: "/Personal-website",
   });
 
   return {

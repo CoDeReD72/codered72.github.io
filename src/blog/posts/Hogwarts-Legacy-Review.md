@@ -47,6 +47,10 @@ On the downside, Hogwarts Legacy falls short in some areas. Despite the engaging
 
 ## Graphics & Sound
 
+Advertised as a Series X optimised game, Hogwarts Legacy definitely lives up to the modern standard of 4k gaming. There are no clear textures or jagged edges and the game runs smoothly at 60fps. The game includes two modes, fidelity and performance like many AAA games nowadays. I chose to stick with performance for the 60fps and the game still looked great.
+
+As for sound, the soundtrack paid clear homage to the original Harry Potter films and games. The music was well composed and fit the game well. The voice acting was also well done, with each character having a unique voice and personality. However, the voice acting was not always consistent, with some characters having noticeably different voices in different scenes. This was particularly noticeable with the protagonist, whose voice changed significantly between scenes, likely due to the modularity of the voice customisation.
+
 ## Story and Replay Value
 
 Set before the events of the Harry Potter franchise, Hogwarts Legacy does an excellent job of introducing characters with unique personalities and connections to the franchise, such as Matilda Weasley and Phineas Black.

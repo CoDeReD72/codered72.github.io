@@ -1,4 +1,3 @@
-
 --- 
 layout: layouts/post.html
 title: "Under Appreciation of Music and Other Creative Arts in Modern Education"
